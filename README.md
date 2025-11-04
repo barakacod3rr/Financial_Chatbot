@@ -1,4 +1,4 @@
-# 💼 AI-Powered Financial Analysis & Chatbot (BCG GenAI Project)
+#  AI-Powered Financial Analysis & Chatbot (BCG GenAI Project)
 
 As a **Junior Data Scientist at Boston Consulting Group (BCG)** on the **GenAI Consulting Team**, this project represents an exciting opportunity to blend **finance, data analysis, and generative AI**.  
 
@@ -8,10 +8,10 @@ The goal was to **extract and analyze financial data** from company filings, the
 
 ## 📊 Task 1: Financial Data Extraction & Analysis
 
-### 🎯 Objective
+###  Objective
 Extract and analyze financial data for **Microsoft (MSFT)**, **Tesla (TSLA)**, and **Apple (AAPL)** from their **10-K filings (FY 2022–2024)** to identify trends and prepare data for AI-driven analysis.
 
-### 🧩 Process
+###  Process
 - Retrieved key metrics: **Total Revenue**, **Net Income**, **Total Assets**, **Total Liabilities**, and **Operating Cash Flow** from SEC’s [EDGAR database]
 - Found the data in section 8 of each report
   
@@ -58,10 +58,10 @@ A clean and transformed dataset in the  [jupyter notebook](task1_forage.ipynb) a
 
 ## 🤖 Task 2: Financial Chatbot Prototype
 
-### 🎯 Objective
+###  Objective
 Develop a **Flask-based chatbot** that uses the analyzed data to respond to **predefined financial queries** — a foundational step toward building an AI-powered financial assistant.
 
-### ⚙️ Functionality
+###  Functionality
 - Used the cleaned financial data from **Task 1**, recreated as a new **DataFrame** , [Transformed Dataframe](financialsNew.csv), directly in `app.py` (instead of importing from Excel/CSV) for seamless integration with the chatbot logic.
 - Responds to key user queries such as:
   - “What is the total revenue?”
@@ -72,5 +72,5 @@ Develop a **Flask-based chatbot** that uses the analyzed data to respond to **pr
   > “Sorry, I can only provide information on predefined queries.
 - Type 'help' and chatbot gives the list of questions you should ask
   
-# 3️⃣ Access in your browser
+# 3️ Access in your browser
 [Financial Chatbot deployed](https://eanns-finance-chatbot.onrender.com/)
