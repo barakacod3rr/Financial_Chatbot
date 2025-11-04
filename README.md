@@ -2,7 +2,7 @@
 
 As a **Junior Data Scientist at Boston Consulting Group (BCG)** on the **GenAI Consulting Team**, this project represents an exciting opportunity to blend **finance, data analysis, and generative AI**.  
 
-The goal was to **extract and analyze financial data** from company filings, then **build a prototype AI chatbot** capable of answering key financial queries interactively — showcasing how AI can enhance financial insights for consulting applications.
+The goal was to **extract and analyze financial data** from company filings, then **build a prototype AI chatbot** capable of answering key financial queries interactively , showcasing how AI can enhance financial insights for consulting applications.
 
 ---
 
