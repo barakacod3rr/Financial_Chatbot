@@ -72,5 +72,9 @@ Develop a **Flask-based chatbot** that uses the analyzed data to respond to **pr
   > “Sorry, I can only provide information on predefined queries.
 - Type 'help' and chatbot gives the list of questions you should ask
   
-# 3️ Access in your browser
-[Financial Chatbot deployed](https://eanns-finance-chatbot.onrender.com/)
+# Access in your browser
+[Financial Chatbot deployed in browser](https://eanns-finance-chatbot.onrender.com/)
+
+# Proof of completion
+
+[Certificate of completion](BCG_GenAI_Cert.pdf)
