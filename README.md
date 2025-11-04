@@ -13,7 +13,8 @@ Extract and analyze financial data for **Microsoft (MSFT)**, **Tesla (TSLA)**, a
 
 ### 🧩 Process
 - Retrieved key metrics: **Total Revenue**, **Net Income**, **Total Assets**, **Total Liabilities**, and **Operating Cash Flow** from SEC’s [EDGAR database]
-
+- Found the data in section 8 of each report
+  
 **MICROSOFT**
 
 2023-2024: 
@@ -51,7 +52,7 @@ https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.
 - Summarized insights on financial performance trends across all three companies.  
 
 ### ✅ Outcome
-A clean and transformed dataset in the [jupyter notebook](`task1_forage.csv`) ready for use in **AI applications** — particularly chatbot training and query responses.
+A clean and transformed dataset in the  [jupyter notebook](task1_forage.ipynb) and downloaded the transformed dataframe, [Excel sheet](financialsNew.csv) ready for use in **AI applications** — particularly chatbot training and query responses.
 
 ---
 
@@ -61,7 +62,7 @@ A clean and transformed dataset in the [jupyter notebook](`task1_forage.csv`) re
 Develop a **Flask-based chatbot** that uses the analyzed data to respond to **predefined financial queries** — a foundational step toward building an AI-powered financial assistant.
 
 ### ⚙️ Functionality
-- Pulls data insights from **`task1_forage.csv`**.  
+- Used the cleaned financial data from **Task 1**, recreated as a new **DataFrame** , [Transformed Dataframe](financialsNew.csv), directly in `app.py` (instead of importing from Excel/CSV) for seamless integration with the chatbot logic.
 - Responds to key user queries such as:
   - “What is the total revenue?”
   - “How has net income changed over the last year?”
