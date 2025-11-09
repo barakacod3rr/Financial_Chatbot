@@ -1,4 +1,4 @@
-#  AI-Powered Financial Analysis & Chatbot (BCG GenAI Project)
+# BCG GenAI Project ---  AI-Powered Financial Analysis & Chatbot 
 
 As a **Junior Data Scientist at Boston Consulting Group (BCG)** on the **GenAI Consulting Team**, this project represents an exciting opportunity to blend **finance, data analysis, and generative AI**.  
 
